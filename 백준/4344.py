@@ -1,4 +1,4 @@
-# print(round(3.1447, 3)) ,  포맷팅
+# round 함수 ,  format method 이용해보기
 import sys
 c = int(input())
 while c != 0:
