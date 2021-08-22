@@ -1,6 +1,6 @@
 def solution(new_id):  # main
-    first = to_lowercase(new_id)
-    three = remove_theother(first)
+    one = to_lowercase(new_id)
+    three = remove_theother(one)
     four = about_length(three)
     return four
 
@@ -8,7 +8,7 @@ def solution(new_id):  # main
 def to_lowercase(new_id):  # 1 모든 문자를 소문자로 
     return new_id.lower()
 
-def remove_theother(first):  
+def remove_theother(one):  
     two = ""
     three=""
     for i in first:   # 2
