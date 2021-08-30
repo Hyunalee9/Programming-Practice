@@ -6,7 +6,4 @@ for i in range(k):
         l.append(num)
     else:
         l.pop()
-if len(l) == 0:
-    print(0)
-else:
-    print(sum(l))
+print(sum(l))
