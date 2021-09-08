@@ -1,6 +1,6 @@
 def solution(s):
     answer = len(s)
-    for index in range(1, int(len(s)/2)+1):
+    for index in range(1, (len(s)//2)+1):
         cnt,length = 1,0
         comp = ""
         for i in range(0, len(s), index):
